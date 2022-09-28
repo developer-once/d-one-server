@@ -1,6 +1,6 @@
 # D-One
 
-D-One 是解决项目从新建到发布的全流程平台 https://baishan-xux.yuque.com/staff-qktuyg/vc586g/kavokl
+D-One 是解决项目从新建到发布的全流程平台 https://dev-one.cn/#/
 
 ## QuickStart
 
@@ -58,7 +58,6 @@ docker 部署流程请参阅文档 https://baishan-xux.yuque.com/staff-qktuyg/wn
 5. 如何处理大量的请求同时进来带来的消耗服务端 init project 物理存储空间的问题 （rm 文件夹 在 node 中执行？）（不使用物理空间 用内存？ 大量项目怎么办？）
 6. 如何安全的删除 Git 提交之后的 init 文件
 7. 如何保证失败之后可以同步到前端？（子进程轮询？异步？）
-
 
 
 
