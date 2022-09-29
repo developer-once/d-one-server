@@ -1,7 +1,7 @@
 // -- 声明无需登录的路由 - 后台查询需要 --
 export const checkRouter = [
-  '/user/create',
-  '/user/login',
+  '/api/user/create',
+  '/api/user/login',
 
 
   '/swagger-doc',
@@ -17,8 +17,8 @@ export const checkRouter = [
 
 // -- swagger router --
 export const ignoreRouter = [
-  '/user/create',
-  '/user/login',
+  '/api/user/create',
+  '/api/user/login',
 
   // --- swagger ---
   '/swagger-doc',

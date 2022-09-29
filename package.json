@@ -8,9 +8,9 @@
     "declarations": true
   },
   "scripts": {
-    "start": "egg-scripts start --port=6000 --daemon --title=egg-server-d-one",
+    "start": "egg-scripts start --port=6001 --daemon --title=egg-server-d-one",
     "stop": "egg-scripts stop --title=egg-server-d-one",
-    "dev": "egg-bin dev --port=6000",
+    "dev": "egg-bin dev --port=6001",
     "debug": "egg-bin debug",
     "test-local": "egg-bin test",
     "test": "npm run lint -- --fix && npm run test-local",

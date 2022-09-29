@@ -11,6 +11,6 @@ COPY . /app
 # RUN npm install --save-dev sequelize-cli
 # RUN npm run tsc
 
-EXPOSE 6000
+EXPOSE 6001
 
 CMD NODE_ENV=development npx sequelize db:migrate && npm run start
